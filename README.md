@@ -41,7 +41,7 @@ from env_key_manager import APIKeyManager
 key_manager = APIKeyManager()
 
 # 设置环境变量
-key_manager.setup_api_key(["API_KEY1", "API_KEY2"])
+key_manager.setup_api_key(["OPENAI_API_KEY", "API_KEY2"])
 
 # 使用自定义配置文件
 key_manager = APIKeyManager(config_file="/path/to/config.json")
@@ -78,4 +78,4 @@ MIT License
 
 ## 作者
 
-ROOKIE-AI 
+ROOKIE

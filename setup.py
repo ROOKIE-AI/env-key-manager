@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="env-key-manager",
     version="0.1.0",
-    author="ROOKIE-AI",
-    author_email="support@rookie-ai.com",
+    author="ROOKIE",
+    author_email="RookieEmail@163.com",
     description="A secure environment variable key manager with encryption support",
     long_description=long_description,
     long_description_content_type="text/markdown",
